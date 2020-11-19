@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Mila-TUR Application Form.</title>
+	<link rel="stylesheet" href="mila.css">
+</head>
+
+<body>
+
+	 <!--<h1 class="tur">Mila-TUR</h1>-->
+
+	<div class="wrapper">
+
+	
+		<section>
+			<h1>Mila-TUR Application Form.</h1>
+			<p>Fill out this form below to be a member of the Mila-TUR Association.</p>
+			<br>
+			<form method="POST" action="">
+				<fieldset>
+					<legend>Contact Details</legend>
+					<label for="firstname">FirstName</label>
+					<input type="text" id="firstname" name="firstname" autofocus>
+					<label for="lastname">LastName</label>
+					<input type="text" id="lastname" name="lastname">
+					<label for="phone">Phone Number</label>
+					<input type="tel" id="phone" name="phone" placeholder="Start with your country code!">
+
+
+				</fieldset>
+
+				<fieldset>
+					<legend>Other Information</legend>
+					<label for="date">Date of Birth</label>
+					<input type="date" id="date" name="date">
+					<label for="yrsexp">Years of Experience</label>
+					<input type="number" id="yrsexp" name="yrsexp" min="3" max="15">
+					<p>Which continent do you reside in?</p>
+					<label>
+						<input type="radio" name="continent" value="africa" checked> Africa
+					</label>
+
+					<label>
+						<input type="radio" name="continent" value="samerica"> South America
+					</label>
+
+					<label>
+						<input type="radio" name="continent" value="namerica"> North America 
+					</label>
+
+					<label>
+						<input type="radio" name="continent" value="asia"> Asia
+					</label>
+					
+					<label>
+						<input type="radio" name="continent" value="europe"> Europe
+					</label>
+
+				<label for="jobtype"><p>What kind of job can you do?</p></label>
+					<select name="jobtype" id="jobtype">
+						<option selected>Select One</option>
+						<option value="editor">Editor</option>
+						<option value="writer">Writer</option>
+						<option value="designer">Designer</option>	
+
+					</select>
+
+				<label for="essay"><p>Write a short essay on 'Why should we hire you?' </p></label>
+				<textarea name="essay" id="essay" cols="30" rows="10" placeholder="Be precise."></textarea>
+				<br>
+
+				<label>
+						<input id="subscribe" name="subscribe" type="checkbox" value="subscribe">Add me to your email list.
+				</label>
+
+				<input id="send_to" type="hidden" name="send_to" value="yourEmailHere">
+				<br>
+				<br>
+				<button type="submit">Submit</button>
+
+
+				</fieldset>
+				
+
+
+			</form>
+
+		</section>
+		<aside>
+				<h3>CONTACT US HERE</h3>
+				<img class="milajpg" src="mila.jpg" alt="Mila">
+				<address>
+					5, Beautiful Avenue<br>
+					Mila TUR street
+					Lagos, Nigeria.
+					+2341111100000
+				</address>
+			</aside>
+
+
+	</div>
+
+
+			
+</body>
+</html>
